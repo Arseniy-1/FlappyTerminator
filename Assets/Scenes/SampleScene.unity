@@ -707,7 +707,7 @@ MonoBehaviour:
   Speed: 2
   _tapForce: 8
   _rotationSpeed: 1.3
-  _maxRotationZ: 45
+  _maxRotationZ: 30
   _minRotationZ: -60
 --- !u!50 &453888335
 Rigidbody2D:
@@ -1391,9 +1391,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _flappy: {fileID: 453888333}
-  _enemySpawner: {fileID: 473475503}
   _startScreen: {fileID: 893417004}
   _endGameScreen: {fileID: 1785583442}
+  _enemySpawner: {fileID: 473475503}
+  _coinSpawner: {fileID: 1232952075}
+  _foodSpawner: {fileID: 673845944}
 --- !u!4 &858242752
 Transform:
   m_ObjectHideFlags: 0
